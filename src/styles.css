@@ -1,3 +1,23 @@
+<link rel='stylestheet' href='https://www.1001fonts.com/digital-dream-font.html' /> 
+
+
+*,*::before,*::after {
+  box-sizing: border-box;
+  font-family: digital-dream-font, sans-serif;
+  font-weight: normal;
+}
+
 body {
-  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
