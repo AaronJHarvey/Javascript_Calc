@@ -53,7 +53,13 @@ body {
 }
 
 .output .previous-operand {
-  font-family: sin mono, sans-serif;
+  font-family: syne mono, sans-serif;
   color: rgba(255, 255, 255, 0.75);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.output .current-operand {
+  font-family: syne mono, sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 3rem;
 }
