@@ -1,9 +1,11 @@
-<link rel='stylestheet' href='https://www.1001fonts.com/digital-dream-font.html' /> 
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Syne+Mono&display=swap");
 
-
-*,*::before,*::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  font-family: digital-dream-font, sans-serif;
+  font-family: Dosis, sans-serif;
   font-weight: normal;
 }
 
