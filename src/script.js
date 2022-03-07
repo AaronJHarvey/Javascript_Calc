@@ -2,9 +2,14 @@ class Calculator {
   constructor(previousOperAndTextElement, currentOperAndTextElement) {
     this.previousOperAnd = previousOperAndTextElement;
     this.currentOperAnd = currentOperAndTextElement;
+    this.clear();
   }
 
-  clear() {}
+  clear() {
+    (this.currentOperAnd = ""),
+      (this.previousOperAnd = ""),
+      (this.operation = undefined);
+  }
 
   delete() {}
 
