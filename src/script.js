@@ -28,7 +28,12 @@ class Calculator {
     this.currentOperand = "";
   }
 
-  compute() {}
+  compute() {
+    let computation
+    let prev = parseFloat(this.previousOperand)
+    const current = parseFloat(this.currentOperand)
+    }
+  }
 
   updateDisplay() {
     this.currentOperandTextElement.innerText = this.currentOperand;
